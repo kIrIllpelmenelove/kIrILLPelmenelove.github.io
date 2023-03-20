@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    background-image: url(images/head.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    padding-top: 400px;
+}
+.best{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    color: white;
+}
+.but{
+    border: none;
+    padding: 15px 30px 15px 30px;
+    border-radius:30px ;
+    color: turquoise;
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+.form{
+    display: inline;
+    margin-left: 30px;
+}
+.card{
+    width: 400px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 10px rgb(190, 0, 0);
+    display: inline-block;
+    margin:25px;
+}
+img{
+    border-radius: 25px 25px 0 0; 
+}
+h2{
+    text-align: center;
+}
+p{
+    margin: 0 60px 0 60px;
+}
+p, span{
+
+    text-align: center;
+}
+main{
+text-align: center;
+}
+footer{
+    background-color: rgb(136, 255, 0);
+    text-align: center;
+}
+.contact, .map, .networks{
+    display: inline-block;
+    width: 180px;
+    margin: 60px 200px 60px 100px; 
+    color: white;  
+}
+.card:hover{
+    box-shadow: 1px 1px 10px rgb(45, 230, 199);
+}
+
+@media(max-width:1447px) and (min-width:1300px){
+    .contact{
+        margin: 40px 170px 60px 100px; 
+    }
+    .map{
+        width: 180;
+    }
+    .networks{
+        width: 180;
+    }
+    footer{
+        background-color: rgb(255, 38, 0);
+    }
+    
+}
